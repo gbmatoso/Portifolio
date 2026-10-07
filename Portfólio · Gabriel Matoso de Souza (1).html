@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gabriel Matoso de Souza · Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="barra-progresso"></div><div id="brilho"></div>
+<header class="navegacao"><div class="envolucro">
+<a class="logotipo" href="#inicio">Gabriel M.</a>
+<nav aria-label="Principal"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a href="#formacao">Formação</a><a href="#contato">Contato</a><button id="tema" aria-label="Alternar tema">◐</button></nav>
+</div></header>
+
+<main>
+<section class="destaque" id="inicio"><div class="envolucro">
+<h1><span><i>Gabriel</i></span><span><i>Matoso</i></span></h1>
+<div class="digitacao" aria-live="off">Eu <b id="maquina"></b></div>
+<p class="chamada">Tenho 17 anos, estudo no Cotemig e aprendo construindo coisas que funcionam de verdade.</p>
+<div class="etiquetas"><span class="etiqueta ao-vivo">Aberto a novos projetos</span><span class="etiqueta">Estudante do Cotemig</span><span class="etiqueta">Belo Horizonte, MG</span></div>
+<a class="botao" href="#projetos">Ver projetos</a> <a class="botao contorno" href="#contato">Falar comigo</a>
+<div class="estatisticas">
+<div class="estatistica"><b data-n="17">0</b><span>anos de idade</span></div>
+<div class="estatistica"><b data-n="3">0</b><span>projetos em destaque</span></div>
+<div class="estatistica"><b data-n="8">0</b><span>tecnologias no dia a dia</span></div>
+<div class="estatistica"><b data-n="100" data-s="%">0</b><span>vontade de aprender</span></div>
+</div>
+</div></section>
+
+<div class="faixa" aria-hidden="true"><div id="faixa-texto"></div></div>
+
+<section id="sobre"><div class="envolucro revelar">
+<h2>Sobre mim</h2><p class="subtitulo">Quem está por trás do código.</p>
+<div class="sobre-mim">
+<div>
+<p>Sou o Gabriel Matoso de Souza, estudante do Cotemig, em Belo Horizonte. Gosto de transformar uma ideia em algo que as pessoas conseguem abrir, clicar e usar.</p>
+<p>Aprendo na prática: pego um problema, monto uma solução, quebro, conserto e melhoro. Cada projeto novo me ensina algo que a sala de aula sozinha não ensina.</p>
+<p>Busco estágio, projetos freelance e pessoas com quem trabalhar em equipe e crescer junto.</p>
+</div>
+<dl class="dados">
+<dt>Nome completo</dt><dd>Gabriel Matoso de Souza</dd>
+<dt>Idade</dt><dd>17 anos</dd>
+<dt>Escola</dt><dd>Cotemig</dd>
+<dt>Cidade</dt><dd>Belo Horizonte, MG</dd>
+<dt>Disponibilidade</dt><dd>Estágio e projetos freelance</dd>
+</dl>
+</div></div></section>
+
+<section id="servicos"><div class="envolucro revelar">
+<h2>O que eu faço</h2><p class="subtitulo">Coisas que posso entregar para você ou para a sua equipe.</p>
+<div class="grade">
+<div class="cartao"><span class="icone">🌐</span><h3>Sites e landing pages</h3><p>Páginas rápidas, bonitas e que funcionam bem no celular.</p></div>
+<div class="cartao"><span class="icone">⚙️</span><h3>Sistemas web</h3><p>Cadastros, painéis e telas que organizam o trabalho do dia a dia.</p></div>
+<div class="cartao"><span class="icone">🎨</span><h3>Interfaces</h3><p>Protótipos e telas pensadas para quem vai usar, sem enrolação.</p></div>
+<div class="cartao"><span class="icone">🤖</span><h3>Automações</h3><p>Pequenos scripts que fazem o trabalho repetitivo por você.</p></div>
+</div></div></section>
+
+<section id="habilidades"><div class="envolucro revelar">
+<h2>Habilidades</h2><p class="subtitulo">O que eu já uso e o quanto me sinto à vontade.</p>
+<div class="barras" id="barras-habilidades">
+<div class="barra"><div class="topo"><span>HTML e CSS</span><span>85%</span></div><div class="trilho"><div class="preenchimento" data-w="85"></div></div></div>
+<div class="barra"><div class="topo"><span>JavaScript</span><span>70%</span></div><div class="trilho"><div class="preenchimento" data-w="70"></div></div></div>
+<div class="barra"><div class="topo"><span>Python</span><span>60%</span></div><div class="trilho"><div class="preenchimento" data-w="60"></div></div></div>
+<div class="barra"><div class="topo"><span>Git e GitHub</span><span>65%</span></div><div class="trilho"><div class="preenchimento" data-w="65"></div></div></div>
+<div class="barra"><div class="topo"><span>Banco de dados (SQL)</span><span>55%</span></div><div class="trilho"><div class="preenchimento" data-w="55"></div></div></div>
+</div>
+<div class="fichas"><span>React</span><span>Node.js</span><span>Figma</span><span>VS Code</span><span>Trabalho em equipe</span><span>Comunicação</span><span>Organização</span><span>Resolver problemas</span></div>
+</div></section>
+
+<section id="projetos"><div class="envolucro revelar">
+<h2>Projetos</h2><p class="subtitulo">Use os filtros para ver cada tipo de trabalho.</p>
+<div class="filtros" id="filtro"><button class="ativo" data-f="all">Todos</button><button data-f="web">Web</button><button data-f="app">Sistemas</button><button data-f="ui">Design</button></div>
+<div class="grade" id="lista-projetos">
+<article class="cartao projeto" data-c="web"><span class="categoria">Web</span><h3>Meu portfólio</h3><p>Esta página: animações, tema claro e escuro e layout que se adapta ao celular.</p><div class="tecnologias">HTML · CSS · JavaScript</div></article>
+<article class="cartao projeto" data-c="app"><span class="categoria">Sistemas</span><h3>Gerenciador de tarefas</h3><p>Lista de tarefas com categorias, prazos e marcação de concluídas.</p><div class="tecnologias">JavaScript · LocalStorage</div></article>
+<article class="cartao projeto" data-c="ui"><span class="categoria">Design</span><h3>App de estudos</h3><p>Protótipo de um app para organizar horários e matérias da semana.</p><div class="tecnologias">Figma</div></article>
+<article class="cartao projeto" data-c="web"><span class="categoria">Web</span><h3>Site para um negócio local</h3><p>Página com cardápio, localização e botão direto para o WhatsApp.</p><div class="tecnologias">HTML · CSS</div></article>
+<article class="cartao projeto" data-c="app"><span class="categoria">Sistemas</span><h3>Automação em Python</h3><p>Script que organiza arquivos e gera relatórios sem trabalho manual.</p><div class="tecnologias">Python</div></article>
+</div></div></section>
+
+<section id="formacao"><div class="envolucro revelar">
+<h2>Formação e trajetória</h2><p class="subtitulo">O caminho até aqui.</p>
+<ul class="linha-do-tempo" id="trajetoria"><div class="crescer"></div>
+<li><b>Cotemig</b><span>Estudante do ensino técnico em Belo Horizonte.</span></li>
+<li><b>Projetos pessoais</b><span>Sites, sistemas e protótipos criados para praticar o que aprendo.</span></li>
+<li><b>Estudo contínuo</b><span>Cursos online, documentação e muita tentativa e erro.</span></li>
+<li><b>Próximo passo</b><span>Primeiro estágio na área de tecnologia.</span></li>
+</ul></div></section>
+
+<section id="processo"><div class="envolucro revelar">
+<h2>Como eu trabalho</h2><p class="subtitulo">Um passo de cada vez, sempre com você por perto.</p>
+<div class="etapas">
+<div class="cartao etapa"><h3>Conversa</h3><p>Entendo o que você precisa e quem vai usar.</p></div>
+<div class="cartao etapa"><h3>Rascunho</h3><p>Mostro um esboço antes de construir.</p></div>
+<div class="cartao etapa"><h3>Construção</h3><p>Desenvolvo com código limpo e testado.</p></div>
+<div class="cartao etapa"><h3>Entrega</h3><p>Publico, explico e ajusto o que for preciso.</p></div>
+</div></div></section>
+
+<section id="faq"><div class="envolucro revelar">
+<h2>Perguntas frequentes</h2><p class="subtitulo">&nbsp;</p>
+<details><summary>Você faz trabalhos freelance?</summary><p>Sim. Aceito projetos pequenos e médios, combinando prazo e escopo antes de começar.</p></details>
+<details><summary>Você está procurando estágio?</summary><p>Sim. Quero entrar em um time de tecnologia para aprender e contribuir desde o início.</p></details>
+<details><summary>Trabalha remoto?</summary><p>Trabalho remoto ou presencial em Belo Horizonte, conforme o combinado.</p></details>
+<details><summary>Quanto tempo leva um site?</summary><p>Uma landing page simples fica pronta em poucos dias. Sistemas maiores dependem do que for pedido.</p></details>
+</div></section>
+
+<section id="contato"><div class="envolucro revelar">
+<h2>Vamos construir algo juntos?</h2><p class="subtitulo">Escreva abaixo e seu e-mail abre com a mensagem pronta.</p>
+<form id="formulario">
+<input name="n" placeholder="Seu nome" required aria-label="Seu nome">
+<input name="e" type="email" placeholder="Seu e-mail" required aria-label="Seu e-mail">
+<textarea name="m" rows="4" placeholder="Conte sobre o projeto" required aria-label="Mensagem"></textarea>
+<button class="botao" type="submit">Enviar mensagem</button>
+</form>
+<div class="contatos"><a class="botao contorno" href="https://github.com/gbmatoso">GitHub</a><a class="botao contorno" href="https://www.linkedin.com/in/gabriel-m-046b663aa/">LinkedIn</a></div>
+</div></section>
+</main>
+<footer><div class="envolucro">© 2026 Gabriel Matoso de Souza · Feito em Belo Horizonte</div></footer>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+// feito para as frases do começo do site
+const words=["crio sites.","desenvolvo sistemas.","desenho interfaces.","automatizo tarefas.","estudo no Cotemig."];
+let w=0,c=0,del=false;const tw=$("#maquina");
+(function t(){const s=words[w];tw.textContent=s.slice(0,c);
+if(!del&&c===s.length){del=true;return setTimeout(t,1300)}
+if(del&&c===0){del=false;w=(w+1)%words.length}
+c+=del?-1:1;setTimeout(t,del?35:70)})();
+// marquee
+$("#faixa-texto").innerHTML=("Aberto a projetos // Estágio // Freelance // ".repeat(8));
+// reveal + counters + bars + timeline
+const cnt=el=>{const n=+el.dataset.n,s=el.dataset.s||"";let i=0;const step=()=>{i+=Math.max(1,Math.ceil(n/40));if(i>=n)i=n;el.textContent=i+s;if(i<n)requestAnimationFrame(step)};step()};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
+e.target.classList.add("visivel");
+e.target.querySelectorAll("[data-n]").forEach(cnt);
+e.target.querySelectorAll(".preenchimento").forEach(f=>f.style.width=f.dataset.w+"%");
+const g=e.target.querySelector(".crescer");if(g)g.style.height="100%";
+io.unobserve(e.target)}),{threshold:.15});
+$$(".revelar,.estatisticas").forEach(el=>io.observe(el));
+// scroll progress + active link
+addEventListener("scroll",()=>{const h=document.documentElement;$("#barra-progresso").style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+"%";
+let cur="";$$("main section[id]").forEach(s=>{if(s.getBoundingClientRect().top<150)cur=s.id});
+$$("nav a").forEach(a=>a.classList.toggle("ativo",a.getAttribute("href")==="#"+cur))},{passive:true});
+// glow follows pointer
+addEventListener("pointermove",e=>{const g=$("#brilho");g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"});
+// filters
+$("#filtro").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+$$("#filtro button").forEach(x=>x.classList.toggle("ativo",x===b));
+$$(".projeto").forEach(p=>p.classList.toggle("oculto",b.dataset.f!=="all"&&p.dataset.c!==b.dataset.f))});
+// theme
+$("#tema").onclick=()=>{const r=document.documentElement,d=matchMedia("(prefers-color-scheme:dark)").matches;
+const cur=r.dataset.theme||(d?"dark":"light");r.dataset.theme=cur==="dark"?"light":"dark"};
+// form -> mailto
+$("#formulario").addEventListener("submit",e=>{e.preventDefault();const d=new FormData(e.target);
+location.href="mailto:seuemail@exemplo.com?subject="+encodeURIComponent("Contato pelo portfólio - "+d.get("n"))+"&body="+encodeURIComponent(d.get("m")+"\n\n"+d.get("n")+" ("+d.get("e")+")")});
+</script>
+</body>
+</html>
